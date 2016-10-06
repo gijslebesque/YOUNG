@@ -1,14 +1,14 @@
 
 header {
-	background-image: url("../img/yua.mp4");
+	background-image: url("../img/yuaSHORT.mp4");
 }
 header .header-content .header-content-inner h1 {
 	font-family: Georgia;
-	color: blanchedalmond;
+	color: black;
 }
 header .header-content .header-content-inner p {
     font-weight: 300;
-    color: blanchedalmond;
+    color: black;
     font-size: 16px;
     margin-bottom: 50px;
     font-family: 'Titillium Web', sans-serif;
@@ -56,14 +56,33 @@ header .header-content .header-content-inner p {
   }
 }
 
+@media (min-width: 768px) {
+.navbar-default.affix .navbar-header .navbar-brand {
+    color: black;
+   }
+
+ .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: black;
+}
+
+@media (min-width: 768px) {
+.navbar-default .navbar-header .navbar-brand {
+    color: black;
+}
+@media (min-width: 768px) {}
+.navbar-default .nav>li>a, .navbar-default .nav>li>a:focus {
+    color: black;
+}
+
 .section-heading {
     font-family: Georgia;
-    color: blanchedalmond;
+    color: black;
 
 }
 
 .underline {
-	border-color: blanchedalmond;
+	border-color: black;
 }
 
 .btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
@@ -85,7 +104,7 @@ hr.light {
 }
 	
 .btn-primary {
-	background-color: #5F9EA0;
+	background-color: black;
 	color: blanchedalmond;
 
 }
@@ -113,10 +132,24 @@ hr.light {
 
 .row2 {
 	background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bk-services {
+  text-align: center;
+}
+.servicebox {
+  text-align: center;
 }
 
 .row1 {
 	background-color: white;
+}
+
+#services {
+  text-align: center;
 }
 
 .section-heading3 {
@@ -131,15 +164,6 @@ hr.light {
 color: black;
 }
 
-@media (min-width: 768px) {
-.navbar-default.affix .navbar-header .navbar-brand {
-    color: #5F9EA0;
-   }
-
- .navbar-default.affix .navbar-header .navbar-brand:hover,
-  .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: black;
-}
 
  .navbar-default .nav>li.active>a, .navbar-default .nav>li.active>a:focus {
     color: #5F9EA0!important;
