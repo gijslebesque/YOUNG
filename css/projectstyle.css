@@ -13,3 +13,12 @@
 iframe {
   max-width: 100%;
   }
+
+
+  body,h1,h2,h3,h4,h5,h6 {font-family: Georgia}
+  .w3-navbar,h1,button {font-family: georgia;}
+  .fa-anchor,.fa-coffee {font-size:200px}
+ 
+ p {
+ 	font-family: 'Titillium Web', sans-serif;
+ }
