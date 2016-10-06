@@ -56,6 +56,25 @@ header .header-content .header-content-inner p {
   }
 }
 
+@media (min-width: 768px) {
+.navbar-default.affix .navbar-header .navbar-brand {
+    color: black;
+   }
+
+ .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: black;
+}
+
+@media (min-width: 768px) {
+.navbar-default .navbar-header .navbar-brand {
+    color: black;
+}
+@media (min-width: 768px) {}
+.navbar-default .nav>li>a, .navbar-default .nav>li>a:focus {
+    color: black;
+}
+
 .section-heading {
     font-family: Georgia;
     color: black;
@@ -131,24 +150,6 @@ hr.light {
 color: black;
 }
 
-@media (min-width: 768px) {
-.navbar-default.affix .navbar-header .navbar-brand {
-    color: black;
-   }
-
- .navbar-default.affix .navbar-header .navbar-brand:hover,
-  .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: black;
-}
-
-@media (min-width: 768px) {
-.navbar-default .navbar-header .navbar-brand {
-    color: black;
-}
-@media (min-width: 768px) {}
-.navbar-default .nav>li>a, .navbar-default .nav>li>a:focus {
-    color: black;
-}
 
  .navbar-default .nav>li.active>a, .navbar-default .nav>li.active>a:focus {
     color: #5F9EA0!important;
