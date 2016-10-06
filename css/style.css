@@ -132,10 +132,24 @@ hr.light {
 
 .row2 {
 	background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bk-services {
+  text-align: center;
+}
+.servicebox {
+  text-align: center;
 }
 
 .row1 {
 	background-color: white;
+}
+
+#services {
+  text-align: center;
 }
 
 .section-heading3 {
