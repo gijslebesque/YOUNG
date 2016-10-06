@@ -9,3 +9,7 @@
 .w3-position {
 	padding-top: 115px;
 }
+
+iframe {
+  max-width: 100%;
+  }
