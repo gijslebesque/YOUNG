@@ -58,26 +58,26 @@ header .header-content .header-content-inner p {
 
 @media (min-width: 768px) {
 .navbar-default.affix .navbar-header .navbar-brand {
-    color: white;
+    color: #5F9EA0;
    }
 
  .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: white;
+    color: #5F9EA0;
 }
 
 @media (min-width: 768px) {
 .navbar-default .navbar-header .navbar-brand {
-    color: white;
+    color: #5F9EA0;
 }
 @media (min-width: 768px) {}
 .navbar-default .nav>li>a, .navbar-default .nav>li>a:focus {
-    color: white;
+    color: #5F9EA0;
 }
 
 .section-heading {
     font-family: Georgia;
-    color: white;
+    color: #5F9EA0;
 
 }
 
@@ -200,3 +200,13 @@ a:focus {
 iframe {
   max-width: 100%;
   }
+
+#mainNav {
+  color:#5F9EA0;
+}
+
+.colorheader {
+  background-color: #5F9EA0;
+}
+
+
