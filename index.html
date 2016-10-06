@@ -71,12 +71,12 @@
         <header>
         <
 <div id=background class="fullscreen-bg">
-   <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
-       <source src="img/yua.mp4" type="video/mp4">
+   <video autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+       <source src="img/yuaSHORT.mp4" type="video/mp4">
    </video>
 </div>
 
-$("header-content").fadeIn(3000);
+
 
             <div class="header-content">
                 <div class="header-content-inner">
@@ -87,6 +87,7 @@ $("header-content").fadeIn(3000);
                 </div>
             </div>
         </header>
+    }
 
         <section class="bg-primary" id="about">
             <div class="container">
@@ -284,6 +285,13 @@ $("header-content").fadeIn(3000);
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
+
+    <script>
+$(document).ready(function(){
+    $(".header-content").hide().delay(36000).fadeIn();
+})
+</script>
+
 
 </body>
 
