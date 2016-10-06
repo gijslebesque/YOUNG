@@ -4,11 +4,11 @@ header {
 }
 header .header-content .header-content-inner h1 {
 	font-family: Georgia;
-	color: blanchedalmond;
+	color: black;
 }
 header .header-content .header-content-inner p {
     font-weight: 300;
-    color: blanchedalmond;
+    color: black;
     font-size: 16px;
     margin-bottom: 50px;
     font-family: 'Titillium Web', sans-serif;
@@ -58,7 +58,7 @@ header .header-content .header-content-inner p {
 
 .section-heading {
     font-family: Georgia;
-    color: blanchedalmond;
+    color: black;
 
 }
 
@@ -133,11 +133,16 @@ color: black;
 
 @media (min-width: 768px) {
 .navbar-default.affix .navbar-header .navbar-brand {
-    color: #5F9EA0;
+    color: black;
    }
 
  .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: black;
+}
+
+@media (min-width: 768px) {
+.navbar-default .navbar-header .navbar-brand {
     color: black;
 }
 
