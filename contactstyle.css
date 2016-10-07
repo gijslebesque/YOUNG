@@ -95,3 +95,7 @@ footer {
         height: 70%;
     }
 }
+
+header {
+    min-height: 1%;
+ }
